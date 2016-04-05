@@ -14,7 +14,10 @@
 		A03ED7201CB391B700B6EF16 /* CZMakeTee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A03ED71E1CB391B700B6EF16 /* CZMakeTee.xcdatamodeld */; };
 		A03ED7221CB391B700B6EF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03ED7211CB391B700B6EF16 /* Assets.xcassets */; };
 		A03ED7251CB391B700B6EF16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03ED7231CB391B700B6EF16 /* LaunchScreen.storyboard */; };
-		A03ED7311CB3935000B6EF16 /* UIColor+AppColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED7301CB3935000B6EF16 /* UIColor+AppColor.m */; };
+		A03ED7361CB399C200B6EF16 /* GlobalConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED7351CB399C200B6EF16 /* GlobalConst.m */; };
+		A03ED7391CB39E3B00B6EF16 /* GlobalUIConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED7381CB39E3B00B6EF16 /* GlobalUIConst.m */; };
+		A03ED73C1CB3A6BC00B6EF16 /* MKClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED73B1CB3A6BC00B6EF16 /* MKClass.m */; };
+		A03ED73F1CB3A74700B6EF16 /* MKClassKind.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED73E1CB3A74700B6EF16 /* MKClassKind.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +32,13 @@
 		A03ED7211CB391B700B6EF16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A03ED7241CB391B700B6EF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A03ED7261CB391B700B6EF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A03ED72F1CB3935000B6EF16 /* UIColor+AppColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppColor.h"; sourceTree = "<group>"; };
-		A03ED7301CB3935000B6EF16 /* UIColor+AppColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppColor.m"; sourceTree = "<group>"; };
+		A03ED7351CB399C200B6EF16 /* GlobalConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalConst.m; sourceTree = "<group>"; };
+		A03ED7371CB39E3B00B6EF16 /* GlobalUIConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalUIConst.h; sourceTree = "<group>"; };
+		A03ED7381CB39E3B00B6EF16 /* GlobalUIConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalUIConst.m; sourceTree = "<group>"; };
+		A03ED73A1CB3A6BC00B6EF16 /* MKClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKClass.h; sourceTree = "<group>"; };
+		A03ED73B1CB3A6BC00B6EF16 /* MKClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKClass.m; sourceTree = "<group>"; };
+		A03ED73D1CB3A74700B6EF16 /* MKClassKind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKClassKind.h; sourceTree = "<group>"; };
+		A03ED73E1CB3A74700B6EF16 /* MKClassKind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKClassKind.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +99,10 @@
 		A03ED72C1CB391CB00B6EF16 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				A03ED73A1CB3A6BC00B6EF16 /* MKClass.h */,
+				A03ED73B1CB3A6BC00B6EF16 /* MKClass.m */,
+				A03ED73D1CB3A74700B6EF16 /* MKClassKind.h */,
+				A03ED73E1CB3A74700B6EF16 /* MKClassKind.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -98,8 +110,9 @@
 		A03ED72D1CB391F100B6EF16 /* Global Var */ = {
 			isa = PBXGroup;
 			children = (
-				A03ED72F1CB3935000B6EF16 /* UIColor+AppColor.h */,
-				A03ED7301CB3935000B6EF16 /* UIColor+AppColor.m */,
+				A03ED7351CB399C200B6EF16 /* GlobalConst.m */,
+				A03ED7371CB39E3B00B6EF16 /* GlobalUIConst.h */,
+				A03ED7381CB39E3B00B6EF16 /* GlobalUIConst.m */,
 			);
 			name = "Global Var";
 			sourceTree = "<group>";
@@ -181,11 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03ED7391CB39E3B00B6EF16 /* GlobalUIConst.m in Sources */,
 				A03ED71A1CB391B700B6EF16 /* ViewController.m in Sources */,
 				A03ED7171CB391B700B6EF16 /* AppDelegate.m in Sources */,
 				A03ED7141CB391B700B6EF16 /* main.m in Sources */,
-				A03ED7311CB3935000B6EF16 /* UIColor+AppColor.m in Sources */,
+				A03ED73F1CB3A74700B6EF16 /* MKClassKind.m in Sources */,
 				A03ED7201CB391B700B6EF16 /* CZMakeTee.xcdatamodeld in Sources */,
+				A03ED7361CB399C200B6EF16 /* GlobalConst.m in Sources */,
+				A03ED73C1CB3A6BC00B6EF16 /* MKClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

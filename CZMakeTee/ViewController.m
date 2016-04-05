@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "GlobalConst.m"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor AppWhiteColor];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

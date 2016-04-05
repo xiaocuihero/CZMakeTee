@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIColor+AppColor.h
 //  CZMakeTee
 //
 //  Created by Cui on 16/4/5.
@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIColor+AppColor.h"
 
-@interface ViewController : UIViewController
+@interface UIColor (AppColor)
+
++(UIColor*)AppBrownColor;
++(UIColor*)AppWhiteColor;
 
 
 @end
-

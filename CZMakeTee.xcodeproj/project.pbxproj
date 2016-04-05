@@ -14,6 +14,7 @@
 		A03ED7201CB391B700B6EF16 /* CZMakeTee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A03ED71E1CB391B700B6EF16 /* CZMakeTee.xcdatamodeld */; };
 		A03ED7221CB391B700B6EF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03ED7211CB391B700B6EF16 /* Assets.xcassets */; };
 		A03ED7251CB391B700B6EF16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03ED7231CB391B700B6EF16 /* LaunchScreen.storyboard */; };
+		A03ED7311CB3935000B6EF16 /* UIColor+AppColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED7301CB3935000B6EF16 /* UIColor+AppColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		A03ED7211CB391B700B6EF16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A03ED7241CB391B700B6EF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A03ED7261CB391B700B6EF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03ED72F1CB3935000B6EF16 /* UIColor+AppColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppColor.h"; sourceTree = "<group>"; };
+		A03ED7301CB3935000B6EF16 /* UIColor+AppColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,9 @@
 		A03ED7111CB391B700B6EF16 /* CZMakeTee */ = {
 			isa = PBXGroup;
 			children = (
+				A03ED72E1CB391F400B6EF16 /* Plug-ins */,
+				A03ED72D1CB391F100B6EF16 /* Global Var */,
+				A03ED72C1CB391CB00B6EF16 /* Class */,
 				A03ED7151CB391B700B6EF16 /* AppDelegate.h */,
 				A03ED7161CB391B700B6EF16 /* AppDelegate.m */,
 				A03ED7181CB391B700B6EF16 /* ViewController.h */,
@@ -80,6 +86,29 @@
 				A03ED7131CB391B700B6EF16 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A03ED72C1CB391CB00B6EF16 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		A03ED72D1CB391F100B6EF16 /* Global Var */ = {
+			isa = PBXGroup;
+			children = (
+				A03ED72F1CB3935000B6EF16 /* UIColor+AppColor.h */,
+				A03ED7301CB3935000B6EF16 /* UIColor+AppColor.m */,
+			);
+			name = "Global Var";
+			sourceTree = "<group>";
+		};
+		A03ED72E1CB391F400B6EF16 /* Plug-ins */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Plug-ins";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +184,7 @@
 				A03ED71A1CB391B700B6EF16 /* ViewController.m in Sources */,
 				A03ED7171CB391B700B6EF16 /* AppDelegate.m in Sources */,
 				A03ED7141CB391B700B6EF16 /* main.m in Sources */,
+				A03ED7311CB3935000B6EF16 /* UIColor+AppColor.m in Sources */,
 				A03ED7201CB391B700B6EF16 /* CZMakeTee.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

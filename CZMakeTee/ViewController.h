@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MKClassKind.h"
-
+#import "MKClass.h"
+#import "MKStep.h"
 
 @interface ViewController : UIViewController
-
 
 @end
 

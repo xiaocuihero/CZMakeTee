@@ -16,6 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self test];
+}
+
+- (void)test{
+//    MKClassKind *ck = [MKClassKind new];
+//    //    ck.name = @"123";
+//    ck._id = 12;
+//    ck.name = @"123";
+//    //    NSLog(@"%@", ck.name);
+//    
+//    MKClass *cc = [MKClass new];
+//    cc.cname = @"c";
+//    NSLog(@"cname : %@  --  name : %@", cc.cname, cc.name);
     
     
     

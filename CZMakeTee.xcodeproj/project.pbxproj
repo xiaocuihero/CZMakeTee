@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97F53F56100FE942A5F2CC9D /* Pods_CZMakeTee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3122313002242F357AB526FC /* Pods_CZMakeTee.framework */; };
 		A03ED7141CB391B700B6EF16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED7131CB391B700B6EF16 /* main.m */; };
 		A03ED7171CB391B700B6EF16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED7161CB391B700B6EF16 /* AppDelegate.m */; };
 		A03ED71A1CB391B700B6EF16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED7191CB391B700B6EF16 /* ViewController.m */; };
@@ -18,9 +19,14 @@
 		A03ED7391CB39E3B00B6EF16 /* GlobalUIConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED7381CB39E3B00B6EF16 /* GlobalUIConst.m */; };
 		A03ED73C1CB3A6BC00B6EF16 /* MKClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED73B1CB3A6BC00B6EF16 /* MKClass.m */; };
 		A03ED73F1CB3A74700B6EF16 /* MKClassKind.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED73E1CB3A74700B6EF16 /* MKClassKind.m */; };
+		A0C7EC1B1CB4AD2800357408 /* MKKind.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C7EC1A1CB4AD2800357408 /* MKKind.m */; };
+		A0C7EC1E1CB4B10A00357408 /* MKStep.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C7EC1D1CB4B10A00357408 /* MKStep.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CED850DC57184B240F87A26 /* Pods-CZMakeTee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZMakeTee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZMakeTee/Pods-CZMakeTee.debug.xcconfig"; sourceTree = "<group>"; };
+		3122313002242F357AB526FC /* Pods_CZMakeTee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CZMakeTee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6664497BD8BE616130E1FEFC /* Pods-CZMakeTee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZMakeTee.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZMakeTee/Pods-CZMakeTee.release.xcconfig"; sourceTree = "<group>"; };
 		A03ED70F1CB391B700B6EF16 /* CZMakeTee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZMakeTee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03ED7131CB391B700B6EF16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A03ED7151CB391B700B6EF16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +45,10 @@
 		A03ED73B1CB3A6BC00B6EF16 /* MKClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKClass.m; sourceTree = "<group>"; };
 		A03ED73D1CB3A74700B6EF16 /* MKClassKind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKClassKind.h; sourceTree = "<group>"; };
 		A03ED73E1CB3A74700B6EF16 /* MKClassKind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKClassKind.m; sourceTree = "<group>"; };
+		A0C7EC191CB4AD2800357408 /* MKKind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKKind.h; sourceTree = "<group>"; };
+		A0C7EC1A1CB4AD2800357408 /* MKKind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKKind.m; sourceTree = "<group>"; };
+		A0C7EC1C1CB4B10A00357408 /* MKStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStep.h; sourceTree = "<group>"; };
+		A0C7EC1D1CB4B10A00357408 /* MKStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStep.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,17 +56,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97F53F56100FE942A5F2CC9D /* Pods_CZMakeTee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C2C461D8AAEA1968FB24190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3122313002242F357AB526FC /* Pods_CZMakeTee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A03ED7061CB391B700B6EF16 = {
 			isa = PBXGroup;
 			children = (
 				A03ED7111CB391B700B6EF16 /* CZMakeTee */,
 				A03ED7101CB391B700B6EF16 /* Products */,
+				FEFDC54AF0EF76444430F636 /* Pods */,
+				6C2C461D8AAEA1968FB24190 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +120,14 @@
 		A03ED72C1CB391CB00B6EF16 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				A03ED73A1CB3A6BC00B6EF16 /* MKClass.h */,
-				A03ED73B1CB3A6BC00B6EF16 /* MKClass.m */,
 				A03ED73D1CB3A74700B6EF16 /* MKClassKind.h */,
 				A03ED73E1CB3A74700B6EF16 /* MKClassKind.m */,
+				A03ED73A1CB3A6BC00B6EF16 /* MKClass.h */,
+				A03ED73B1CB3A6BC00B6EF16 /* MKClass.m */,
+				A0C7EC191CB4AD2800357408 /* MKKind.h */,
+				A0C7EC1A1CB4AD2800357408 /* MKKind.m */,
+				A0C7EC1C1CB4B10A00357408 /* MKStep.h */,
+				A0C7EC1D1CB4B10A00357408 /* MKStep.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -124,6 +149,15 @@
 			name = "Plug-ins";
 			sourceTree = "<group>";
 		};
+		FEFDC54AF0EF76444430F636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CED850DC57184B240F87A26 /* Pods-CZMakeTee.debug.xcconfig */,
+				6664497BD8BE616130E1FEFC /* Pods-CZMakeTee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A03ED7291CB391B700B6EF16 /* Build configuration list for PBXNativeTarget "CZMakeTee" */;
 			buildPhases = (
+				5E68D0FE75029896A9B82F9F /* Check Pods Manifest.lock */,
 				A03ED70B1CB391B700B6EF16 /* Sources */,
 				A03ED70C1CB391B700B6EF16 /* Frameworks */,
 				A03ED70D1CB391B700B6EF16 /* Resources */,
+				24E4A4451E23B3FE99B183A4 /* Embed Pods Frameworks */,
+				FE009F2462578B74A6BE0226 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,6 +226,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24E4A4451E23B3FE99B183A4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZMakeTee/Pods-CZMakeTee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E68D0FE75029896A9B82F9F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE009F2462578B74A6BE0226 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZMakeTee/Pods-CZMakeTee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A03ED70B1CB391B700B6EF16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -197,6 +282,8 @@
 				A03ED7391CB39E3B00B6EF16 /* GlobalUIConst.m in Sources */,
 				A03ED71A1CB391B700B6EF16 /* ViewController.m in Sources */,
 				A03ED7171CB391B700B6EF16 /* AppDelegate.m in Sources */,
+				A0C7EC1E1CB4B10A00357408 /* MKStep.m in Sources */,
+				A0C7EC1B1CB4AD2800357408 /* MKKind.m in Sources */,
 				A03ED7141CB391B700B6EF16 /* main.m in Sources */,
 				A03ED73F1CB3A74700B6EF16 /* MKClassKind.m in Sources */,
 				A03ED7201CB391B700B6EF16 /* CZMakeTee.xcdatamodeld in Sources */,
@@ -264,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -302,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -311,9 +398,11 @@
 		};
 		A03ED72A1CB391B700B6EF16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CED850DC57184B240F87A26 /* Pods-CZMakeTee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CZMakeTee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gongfupao.maketea.CZMakeTee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -322,9 +411,11 @@
 		};
 		A03ED72B1CB391B700B6EF16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6664497BD8BE616130E1FEFC /* Pods-CZMakeTee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CZMakeTee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gongfupao.maketea.CZMakeTee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +441,7 @@
 				A03ED72B1CB391B700B6EF16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

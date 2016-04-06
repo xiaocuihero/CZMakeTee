@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface MKClassKind : NSObject
-
 @property NSInteger _id;
 @property NSString* name;
-
 @end

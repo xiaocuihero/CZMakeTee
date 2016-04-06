@@ -10,11 +10,16 @@
 #import "MKClassKind.h"
 
 @interface MKClass : MKClassKind {
-    NSInteger _cid;
-    NSString* _cname;
+    NSInteger cid;
+    NSString* cname;
 }
 
-@property NSInteger cid;
-@property NSString* cname;
+-(NSInteger)cid;
+-(void)setCid:(NSInteger)newCid;
+
+-(NSString*)cname;
+-(void)setCname:(NSString*)newCname;
+
+
 
 @end

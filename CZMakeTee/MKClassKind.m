@@ -9,15 +9,5 @@
 #import "MKClassKind.h"
 
 @implementation MKClassKind
-@synthesize _id = __id;
-@synthesize name = _name;
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        
-    }
-    return self;
-}
 @end

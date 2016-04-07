@@ -8,6 +8,8 @@
 
 #import "MKClassKind.h"
 
+@class FMResultSet;
+
 @interface MKKind : MKClassKind{
     NSInteger kid;
     NSString *kname;
@@ -19,5 +21,7 @@
 - (void)setKid: (NSInteger)newKid;
 - (NSString*)kname;
 - (void)setKname: (NSString*)newKname;
+
+- (instancetype)initWithFMResultSet:(FMResultSet*)rs;
 
 @end

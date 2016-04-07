@@ -7,9 +7,9 @@
 //
 
 #import "MKClass.h"
+@import FMDB;
 
 @implementation MKClass
-
 
 -(NSInteger)cid{
     return self._id;
@@ -25,4 +25,12 @@
     self.name = newCname;
 }
 
+- (instancetype)initWithFMResultSet:(FMResultSet*)rs
+{
+    if (self = [super init]) {
+        cid = [rs intForColumn:@"_id"];
+        cname = [rs stringForColumn:@"name"];
+    }
+    return self;
+}
 @end

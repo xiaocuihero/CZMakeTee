@@ -8,8 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+@class FMResultSet;
 @interface MKStep : NSObject
 @property NSInteger sid;
 @property NSInteger pid;
 @property NSInteger time;
+- (instancetype)initWithDuringInt: (NSInteger) during;
+- (instancetype)initWithRs:(FMResultSet*)rs;
 @end

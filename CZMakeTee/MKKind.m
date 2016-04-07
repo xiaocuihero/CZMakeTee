@@ -7,6 +7,7 @@
 //
 
 #import "MKKind.h"
+@import FMDB;
 
 @implementation MKKind
 
@@ -25,5 +26,15 @@
 - (void)setKname:(NSString *)newKname{
     self.name = newKname;
 }
+
+- (instancetype)initWithFMResultSet:(FMResultSet*)rs{
+    if (self = [super init]) {
+        kid = [rs intForColumn:@"_id"];
+        kname = [rs stringForColumn:@"name"];
+        _cid = [rs intForColumn:@"cid"];
+    }
+    return self;
+}
+
 
 @end

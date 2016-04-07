@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "MKClassKind.h"
 
+@class FMResultSet;
 @interface MKClass : MKClassKind {
     NSInteger cid;
     NSString* cname;
@@ -20,6 +21,6 @@
 -(NSString*)cname;
 -(void)setCname:(NSString*)newCname;
 
-
+- (instancetype)initWithFMResultSet:(FMResultSet*)rs;
 
 @end

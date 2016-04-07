@@ -8,9 +8,12 @@
 
 #import "MKStep.h"
 
+@import FMDB;
+
+
 @implementation MKStep
 
-- (instancetype)initWithDuringInt: (NSInteger) during {
+- (instancetype)initWithDuringInt:(NSInteger) during {
     if (self = [super init]) {
         _pid = -1;
         _sid = -1;
@@ -18,6 +21,16 @@
     }
     return self;
 }
+
+- (instancetype)initWithRs:(FMResultSet*)rs {
+    if (self = [super init]) {
+        _pid = [rs intForColumn:@"pid"];
+        _sid = [rs intForColumn:@"_id"];
+        _time = [rs intForColumn:@"time"];
+    }
+    return self;
+}
+
 
 
 @end

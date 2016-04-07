@@ -8,9 +8,12 @@
 
 #import "ViewController.h"
 #import "GlobalConst.m"
-@interface ViewController ()
-
-@end
+#import "MKClass.h"
+#import "MKStep.h"
+//@import SwiftHTTP
+//#import "JSONjoy.h"
+#import "CZMakeTee-swift.h"
+@import SwiftHTTP;
 
 @implementation ViewController
 
@@ -20,17 +23,6 @@
 }
 
 - (void)test{
-//    MKClassKind *ck = [MKClassKind new];
-//    //    ck.name = @"123";
-//    ck._id = 12;
-//    ck.name = @"123";
-//    //    NSLog(@"%@", ck.name);
-//    
-//    MKClass *cc = [MKClass new];
-//    cc.cname = @"c";
-//    NSLog(@"cname : %@  --  name : %@", cc.cname, cc.name);
-    
-    
     
 }
 

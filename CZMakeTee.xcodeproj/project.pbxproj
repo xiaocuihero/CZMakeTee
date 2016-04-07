@@ -21,6 +21,9 @@
 		A03ED73F1CB3A74700B6EF16 /* MKClassKind.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED73E1CB3A74700B6EF16 /* MKClassKind.m */; };
 		A0C7EC1B1CB4AD2800357408 /* MKKind.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C7EC1A1CB4AD2800357408 /* MKKind.m */; };
 		A0C7EC1E1CB4B10A00357408 /* MKStep.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C7EC1D1CB4B10A00357408 /* MKStep.m */; };
+		A0C7EC221CB4FA1500357408 /* SwiftTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C7EC211CB4FA1500357408 /* SwiftTestClass.swift */; };
+		A0F21D2E1CB656A600A9D51E /* MKPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21D2D1CB656A600A9D51E /* MKPlan.m */; };
+		A0F21D341CB656E700A9D51E /* MKBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21D331CB656E700A9D51E /* MKBrand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,12 @@
 		A0C7EC1A1CB4AD2800357408 /* MKKind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKKind.m; sourceTree = "<group>"; };
 		A0C7EC1C1CB4B10A00357408 /* MKStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStep.h; sourceTree = "<group>"; };
 		A0C7EC1D1CB4B10A00357408 /* MKStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStep.m; sourceTree = "<group>"; };
+		A0C7EC201CB4FA1400357408 /* CZMakeTee-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CZMakeTee-Bridging-Header.h"; sourceTree = "<group>"; };
+		A0C7EC211CB4FA1500357408 /* SwiftTestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTestClass.swift; sourceTree = "<group>"; };
+		A0F21D2C1CB656A600A9D51E /* MKPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKPlan.h; sourceTree = "<group>"; };
+		A0F21D2D1CB656A600A9D51E /* MKPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKPlan.m; sourceTree = "<group>"; };
+		A0F21D321CB656E700A9D51E /* MKBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBrand.h; sourceTree = "<group>"; };
+		A0F21D331CB656E700A9D51E /* MKBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBrand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +101,7 @@
 		A03ED7111CB391B700B6EF16 /* CZMakeTee */ = {
 			isa = PBXGroup;
 			children = (
+				A0C7EC1F1CB4FA0000357408 /* test */,
 				A03ED72E1CB391F400B6EF16 /* Plug-ins */,
 				A03ED72D1CB391F100B6EF16 /* Global Var */,
 				A03ED72C1CB391CB00B6EF16 /* Class */,
@@ -126,8 +136,12 @@
 				A03ED73B1CB3A6BC00B6EF16 /* MKClass.m */,
 				A0C7EC191CB4AD2800357408 /* MKKind.h */,
 				A0C7EC1A1CB4AD2800357408 /* MKKind.m */,
+				A0F21D321CB656E700A9D51E /* MKBrand.h */,
+				A0F21D331CB656E700A9D51E /* MKBrand.m */,
 				A0C7EC1C1CB4B10A00357408 /* MKStep.h */,
 				A0C7EC1D1CB4B10A00357408 /* MKStep.m */,
+				A0F21D2C1CB656A600A9D51E /* MKPlan.h */,
+				A0F21D2D1CB656A600A9D51E /* MKPlan.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -147,6 +161,15 @@
 			children = (
 			);
 			name = "Plug-ins";
+			sourceTree = "<group>";
+		};
+		A0C7EC1F1CB4FA0000357408 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				A0C7EC211CB4FA1500357408 /* SwiftTestClass.swift */,
+				A0C7EC201CB4FA1400357408 /* CZMakeTee-Bridging-Header.h */,
+			);
+			name = test;
 			sourceTree = "<group>";
 		};
 		FEFDC54AF0EF76444430F636 /* Pods */ = {
@@ -282,12 +305,15 @@
 				A03ED7391CB39E3B00B6EF16 /* GlobalUIConst.m in Sources */,
 				A03ED71A1CB391B700B6EF16 /* ViewController.m in Sources */,
 				A03ED7171CB391B700B6EF16 /* AppDelegate.m in Sources */,
+				A0C7EC221CB4FA1500357408 /* SwiftTestClass.swift in Sources */,
 				A0C7EC1E1CB4B10A00357408 /* MKStep.m in Sources */,
+				A0F21D341CB656E700A9D51E /* MKBrand.m in Sources */,
 				A0C7EC1B1CB4AD2800357408 /* MKKind.m in Sources */,
 				A03ED7141CB391B700B6EF16 /* main.m in Sources */,
 				A03ED73F1CB3A74700B6EF16 /* MKClassKind.m in Sources */,
 				A03ED7201CB391B700B6EF16 /* CZMakeTee.xcdatamodeld in Sources */,
 				A03ED7361CB399C200B6EF16 /* GlobalConst.m in Sources */,
+				A0F21D2E1CB656A600A9D51E /* MKPlan.m in Sources */,
 				A03ED73C1CB3A6BC00B6EF16 /* MKClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,11 +427,14 @@
 			baseConfigurationReference = 1CED850DC57184B240F87A26 /* Pods-CZMakeTee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CZMakeTee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gongfupao.maketea.CZMakeTee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CZMakeTee/CZMakeTee-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -414,11 +443,13 @@
 			baseConfigurationReference = 6664497BD8BE616130E1FEFC /* Pods-CZMakeTee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CZMakeTee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gongfupao.maketea.CZMakeTee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CZMakeTee/CZMakeTee-Bridging-Header.h";
 			};
 			name = Release;
 		};

@@ -33,4 +33,12 @@
     }
     return self;
 }
+
+// FIXME: datahelp.getclassbycid
+- (instancetype)initWithCidInt:(NSInteger)cid_ {
+    if (self = [super init]) {
+        self.cid = cid_;
+    }
+    return self;
+}
 @end

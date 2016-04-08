@@ -20,4 +20,12 @@
     return self;
 }
 
+// FIXME: d
+- (instancetype)initWithBidInt:(NSInteger)bid_ {
+    if (self = [super init]) {
+        _bid = bid_;
+    }
+    return self;
+}
+
 @end

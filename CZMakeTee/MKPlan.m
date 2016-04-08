@@ -43,9 +43,26 @@
         _createDate = [rs intForColumn:@"create_date"];
         _modifyDate = [rs intForColumn:@"modify_date"];
         _likes = [rs intForColumn:@"like_times"];
-        _teaClass = [[MKClass alloc] init];
+        _teaClass = [[MKClass alloc] initWithCidInt:[rs intForColumn:@"cid"]];
+        _teaKind = [[MKKind alloc] initWithKidInt:[rs intForColumn:@"kid"]];
+        _teaBrand = [[MKBrand alloc] initWithBidInt:[rs intForColumn:@"bid"]];
+        
+        // FIXME: stepsByPid
+        _steps = [[NSArray<MKStep *> alloc]init];
+        
     }
     return self;
 }
 
 @end
+
+
+
+
+
+
+
+
+
+
+

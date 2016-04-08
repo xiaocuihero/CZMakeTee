@@ -36,5 +36,13 @@
     return self;
 }
 
+// FIXME: datahelp.kindbykid
+- (instancetype)initWithKidInt:(NSInteger)kid_{
+    if (self = [super init]) {
+        kid = kid_;
+    }
+    return self;
+}
+
 
 @end

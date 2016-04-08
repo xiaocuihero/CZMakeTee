@@ -13,4 +13,5 @@
 @property NSInteger bid;
 @property NSString *bname;
 - (instancetype)initWithFMResultSet:(FMResultSet *)rs;
+- (instancetype)initWithBidInt:(NSInteger)bid_;
 @end

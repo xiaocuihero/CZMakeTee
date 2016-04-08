@@ -23,5 +23,6 @@
 - (void)setKname: (NSString*)newKname;
 
 - (instancetype)initWithFMResultSet:(FMResultSet*)rs;
+- (instancetype)initWithKidInt:(NSInteger)kid_;
 
 @end

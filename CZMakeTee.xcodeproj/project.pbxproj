@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		97F53F56100FE942A5F2CC9D /* Pods_CZMakeTee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3122313002242F357AB526FC /* Pods_CZMakeTee.framework */; };
+		A038E3D71CB743A800659FD8 /* MKHttpCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A038E3D61CB743A800659FD8 /* MKHttpCode.m */; };
+		A038E3DA1CB7469200659FD8 /* MKEncyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A038E3D91CB7469200659FD8 /* MKEncyInfo.m */; };
+		A038E3DD1CB7490F00659FD8 /* MKRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A038E3DC1CB7490F00659FD8 /* MKRootTabBarController.m */; };
+		A038E3E71CB74A2700659FD8 /* MKKnowledgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A038E3E61CB74A2700659FD8 /* MKKnowledgeController.m */; };
+		A038E3EA1CB74A3600659FD8 /* MKRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = A038E3E91CB74A3600659FD8 /* MKRecordController.m */; };
+		A038E3ED1CB74A4A00659FD8 /* MKBuildController.m in Sources */ = {isa = PBXBuildFile; fileRef = A038E3EC1CB74A4A00659FD8 /* MKBuildController.m */; };
+		A038E3F01CB74A5600659FD8 /* MKBGMController.m in Sources */ = {isa = PBXBuildFile; fileRef = A038E3EF1CB74A5600659FD8 /* MKBGMController.m */; };
+		A038E3F31CB74A6200659FD8 /* MKPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = A038E3F21CB74A6200659FD8 /* MKPersonController.m */; };
 		A03ED7141CB391B700B6EF16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED7131CB391B700B6EF16 /* main.m */; };
 		A03ED7171CB391B700B6EF16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED7161CB391B700B6EF16 /* AppDelegate.m */; };
 		A03ED71A1CB391B700B6EF16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03ED7191CB391B700B6EF16 /* ViewController.m */; };
@@ -30,6 +38,22 @@
 		1CED850DC57184B240F87A26 /* Pods-CZMakeTee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZMakeTee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZMakeTee/Pods-CZMakeTee.debug.xcconfig"; sourceTree = "<group>"; };
 		3122313002242F357AB526FC /* Pods_CZMakeTee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CZMakeTee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6664497BD8BE616130E1FEFC /* Pods-CZMakeTee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZMakeTee.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZMakeTee/Pods-CZMakeTee.release.xcconfig"; sourceTree = "<group>"; };
+		A038E3D51CB743A800659FD8 /* MKHttpCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKHttpCode.h; sourceTree = "<group>"; };
+		A038E3D61CB743A800659FD8 /* MKHttpCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKHttpCode.m; sourceTree = "<group>"; };
+		A038E3D81CB7469200659FD8 /* MKEncyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKEncyInfo.h; sourceTree = "<group>"; };
+		A038E3D91CB7469200659FD8 /* MKEncyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKEncyInfo.m; sourceTree = "<group>"; };
+		A038E3DB1CB7490F00659FD8 /* MKRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKRootTabBarController.h; sourceTree = "<group>"; };
+		A038E3DC1CB7490F00659FD8 /* MKRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKRootTabBarController.m; sourceTree = "<group>"; };
+		A038E3E51CB74A2700659FD8 /* MKKnowledgeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKKnowledgeController.h; sourceTree = "<group>"; };
+		A038E3E61CB74A2700659FD8 /* MKKnowledgeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKKnowledgeController.m; sourceTree = "<group>"; };
+		A038E3E81CB74A3600659FD8 /* MKRecordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKRecordController.h; sourceTree = "<group>"; };
+		A038E3E91CB74A3600659FD8 /* MKRecordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKRecordController.m; sourceTree = "<group>"; };
+		A038E3EB1CB74A4A00659FD8 /* MKBuildController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBuildController.h; sourceTree = "<group>"; };
+		A038E3EC1CB74A4A00659FD8 /* MKBuildController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBuildController.m; sourceTree = "<group>"; };
+		A038E3EE1CB74A5600659FD8 /* MKBGMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBGMController.h; sourceTree = "<group>"; };
+		A038E3EF1CB74A5600659FD8 /* MKBGMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBGMController.m; sourceTree = "<group>"; };
+		A038E3F11CB74A6200659FD8 /* MKPersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKPersonController.h; sourceTree = "<group>"; };
+		A038E3F21CB74A6200659FD8 /* MKPersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKPersonController.m; sourceTree = "<group>"; };
 		A03ED70F1CB391B700B6EF16 /* CZMakeTee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZMakeTee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03ED7131CB391B700B6EF16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A03ED7151CB391B700B6EF16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +104,74 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A038E3DE1CB7491E00659FD8 /* system file */ = {
+			isa = PBXGroup;
+			children = (
+				A03ED7151CB391B700B6EF16 /* AppDelegate.h */,
+				A03ED7161CB391B700B6EF16 /* AppDelegate.m */,
+			);
+			name = "system file";
+			sourceTree = "<group>";
+		};
+		A038E3DF1CB7494B00659FD8 /* branch controller */ = {
+			isa = PBXGroup;
+			children = (
+				A038E3DB1CB7490F00659FD8 /* MKRootTabBarController.h */,
+				A038E3DC1CB7490F00659FD8 /* MKRootTabBarController.m */,
+				A038E3E01CB7497500659FD8 /* Knowledge */,
+				A038E3E11CB7499200659FD8 /* Record */,
+				A038E3E21CB7499D00659FD8 /* Build */,
+				A038E3E31CB749C400659FD8 /* BGM */,
+				A038E3E41CB749CB00659FD8 /* Person */,
+			);
+			name = "branch controller";
+			sourceTree = "<group>";
+		};
+		A038E3E01CB7497500659FD8 /* Knowledge */ = {
+			isa = PBXGroup;
+			children = (
+				A038E3E51CB74A2700659FD8 /* MKKnowledgeController.h */,
+				A038E3E61CB74A2700659FD8 /* MKKnowledgeController.m */,
+			);
+			name = Knowledge;
+			sourceTree = "<group>";
+		};
+		A038E3E11CB7499200659FD8 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				A038E3E81CB74A3600659FD8 /* MKRecordController.h */,
+				A038E3E91CB74A3600659FD8 /* MKRecordController.m */,
+			);
+			name = Record;
+			sourceTree = "<group>";
+		};
+		A038E3E21CB7499D00659FD8 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				A038E3EB1CB74A4A00659FD8 /* MKBuildController.h */,
+				A038E3EC1CB74A4A00659FD8 /* MKBuildController.m */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		A038E3E31CB749C400659FD8 /* BGM */ = {
+			isa = PBXGroup;
+			children = (
+				A038E3EE1CB74A5600659FD8 /* MKBGMController.h */,
+				A038E3EF1CB74A5600659FD8 /* MKBGMController.m */,
+			);
+			name = BGM;
+			sourceTree = "<group>";
+		};
+		A038E3E41CB749CB00659FD8 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				A038E3F11CB74A6200659FD8 /* MKPersonController.h */,
+				A038E3F21CB74A6200659FD8 /* MKPersonController.m */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
 		A03ED7061CB391B700B6EF16 = {
 			isa = PBXGroup;
 			children = (
@@ -105,8 +197,8 @@
 				A03ED72E1CB391F400B6EF16 /* Plug-ins */,
 				A03ED72D1CB391F100B6EF16 /* Global Var */,
 				A03ED72C1CB391CB00B6EF16 /* Class */,
-				A03ED7151CB391B700B6EF16 /* AppDelegate.h */,
-				A03ED7161CB391B700B6EF16 /* AppDelegate.m */,
+				A038E3DE1CB7491E00659FD8 /* system file */,
+				A038E3DF1CB7494B00659FD8 /* branch controller */,
 				A03ED7181CB391B700B6EF16 /* ViewController.h */,
 				A03ED7191CB391B700B6EF16 /* ViewController.m */,
 				A03ED71B1CB391B700B6EF16 /* Main.storyboard */,
@@ -142,6 +234,10 @@
 				A0C7EC1D1CB4B10A00357408 /* MKStep.m */,
 				A0F21D2C1CB656A600A9D51E /* MKPlan.h */,
 				A0F21D2D1CB656A600A9D51E /* MKPlan.m */,
+				A038E3D51CB743A800659FD8 /* MKHttpCode.h */,
+				A038E3D61CB743A800659FD8 /* MKHttpCode.m */,
+				A038E3D81CB7469200659FD8 /* MKEncyInfo.h */,
+				A038E3D91CB7469200659FD8 /* MKEncyInfo.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -303,18 +399,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A03ED7391CB39E3B00B6EF16 /* GlobalUIConst.m in Sources */,
+				A038E3F31CB74A6200659FD8 /* MKPersonController.m in Sources */,
+				A038E3E71CB74A2700659FD8 /* MKKnowledgeController.m in Sources */,
 				A03ED71A1CB391B700B6EF16 /* ViewController.m in Sources */,
+				A038E3D71CB743A800659FD8 /* MKHttpCode.m in Sources */,
 				A03ED7171CB391B700B6EF16 /* AppDelegate.m in Sources */,
 				A0C7EC221CB4FA1500357408 /* SwiftTestClass.swift in Sources */,
 				A0C7EC1E1CB4B10A00357408 /* MKStep.m in Sources */,
 				A0F21D341CB656E700A9D51E /* MKBrand.m in Sources */,
 				A0C7EC1B1CB4AD2800357408 /* MKKind.m in Sources */,
 				A03ED7141CB391B700B6EF16 /* main.m in Sources */,
+				A038E3F01CB74A5600659FD8 /* MKBGMController.m in Sources */,
+				A038E3ED1CB74A4A00659FD8 /* MKBuildController.m in Sources */,
+				A038E3EA1CB74A3600659FD8 /* MKRecordController.m in Sources */,
+				A038E3DA1CB7469200659FD8 /* MKEncyInfo.m in Sources */,
 				A03ED73F1CB3A74700B6EF16 /* MKClassKind.m in Sources */,
 				A03ED7201CB391B700B6EF16 /* CZMakeTee.xcdatamodeld in Sources */,
 				A03ED7361CB399C200B6EF16 /* GlobalConst.m in Sources */,
 				A0F21D2E1CB656A600A9D51E /* MKPlan.m in Sources */,
 				A03ED73C1CB3A6BC00B6EF16 /* MKClass.m in Sources */,
+				A038E3DD1CB7490F00659FD8 /* MKRootTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

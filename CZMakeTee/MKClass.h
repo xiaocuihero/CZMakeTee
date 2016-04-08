@@ -22,5 +22,6 @@
 -(void)setCname:(NSString*)newCname;
 
 - (instancetype)initWithFMResultSet:(FMResultSet*)rs;
+- (instancetype)initWithCidInt:(NSInteger)cid_;
 
 @end

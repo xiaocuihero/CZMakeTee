@@ -10,7 +10,10 @@
 #import "MKClass.h"
 #import "MKStep.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController{
+    NSString *testProperty;
+}
+//- (void)setTestProperty:(NSString*) newValue;
+//- (NSString *)testProperty;
 @end
 

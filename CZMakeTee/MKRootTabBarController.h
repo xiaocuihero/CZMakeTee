@@ -7,7 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MKKnowledgeController, MKRecordController, MKBuildController, MKBGMController, MKPersonController;
 
-@interface MKRootTabBarController : UITabBarController
+
+@interface MKRootTabBarController : UITabBarController{
+    UINavigationController *knowledgeNavigationController;
+    MKKnowledgeController *knowledgeController;
+    
+    UINavigationController *recordNavigationController;
+    MKRecordController *recordController;
+    
+    UINavigationController *buildNavigationController;
+    MKBuildController *buildController;
+    
+    UINavigationController *BGMNavigationController;
+    MKBGMController *BGMController;
+    
+    UINavigationController *personNavigationController;
+    MKPersonController *personController;
+}
 
 @end

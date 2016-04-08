@@ -10,4 +10,9 @@
 
 @implementation MKKnowledgeController
 
+- (void)viewDidLoad{
+    [super viewDidLoad];
+    
+}
+
 @end

@@ -1,0 +1,18 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - JSONJoy (0.1.9)
+  - SwiftHTTP (1.0.5)
+
+DEPENDENCIES:
+  - FMDB
+  - JSONJoy (~> 0.1.9)
+  - SwiftHTTP (~> 1.0.5)
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  JSONJoy: 5faaa5ef59e9ac726a29bb09a7282ebbff1862c5
+  SwiftHTTP: edb45e72f27d1d95d328d2b2c16a61aa94f1e9f7
+
+COCOAPODS: 0.39.0
